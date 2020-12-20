@@ -1,0 +1,57 @@
+:root {
+    --primario: #AD1403;
+    --secundario: #FF3A24;
+    --terciario: #00AD53;
+}
+
+body {
+    background: #22c1c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    color: var(--primario);
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h3 {
+    color: var(--secundario);
+}
+
+a {
+    color: var(--terciario);
+}
+
+.links {
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+.guardar {
+    margin-top: 10px;
+}
+
+span {
+    color: var(--secundario);
+}
